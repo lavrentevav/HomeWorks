@@ -1,4 +1,4 @@
-﻿namespace Task_2_1
+﻿namespace Task_2_7
 {
     internal class Program
     {
@@ -8,16 +8,12 @@
             int a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите число b: ");
             int b = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Введите число c: ");
-            int c = Convert.ToInt32(Console.ReadLine());
+            
+            a = a+b;
+            b = a-b;
+            a = a-b;
 
-            int t = a;
-
-            a = c;
-            c = b;
-            b = t;
-
-            Console.WriteLine("После замены: a={0}, b={1}, c={2}", a, b, c);
+            Console.WriteLine("После замены: a={0}, b={1}", a, b);
             Console.ReadKey();
 
         }
