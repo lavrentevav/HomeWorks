@@ -14,7 +14,7 @@ namespace Task_4_1
                 n = Convert.ToInt32(Console.ReadLine());
                 if (n <= 0)
                 {
-                    Console.WriteLine("Ошибка ввода.");
+                    Console.WriteLine("Ошибка ввода. Число не соответствует условию задачи.");
                     Console.WriteLine();
                 }
                 else
