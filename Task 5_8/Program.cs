@@ -14,23 +14,23 @@
                 Console.Write("{0} ", array[i]);
             }
 
-            int max1Element = 0;
-            int max2Element = 0;
+            int max1 = 0;
+            int max2 = 0;
 
             for (int i = 0; i < n; i++)
             {
-                if (array[i] > max1Element)
+                if (array[i] > max1)
                 {
-                    max2Element = max1Element;
-                    max1Element = array[i];
+                    max2 = max1;
+                    max1 = array[i];
                 }
-                else if (array[i] > max2Element)
+                else if (array[i] > max2)
                 {
-                    max2Element = array[i];
+                    max2 = array[i];
                 }
             }
             Console.WriteLine();
-            Console.WriteLine("Два наибольших числа в массиве: {0}, {1}", max1Element, max2Element);
+            Console.WriteLine("Два наибольших числа в массиве: {0}, {1}", max1, max2);
             Console.ReadKey();
         }
     }
