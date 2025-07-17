@@ -143,6 +143,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 1_2_TrafficLigh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 1_3_RunawayButton", "WpfApp_Task 1_3_RunawayButton\WpfApp_Task 1_3_RunawayButton.csproj", "{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 2_1_TextEditor", "WpfApp_Task 2_1_TextEditor\WpfApp_Task 2_1_TextEditor.csproj", "{493B1406-4C60-4FC9-BF87-B7E2F8220F62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -429,6 +431,10 @@ Global
 		{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493B1406-4C60-4FC9-BF87-B7E2F8220F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493B1406-4C60-4FC9-BF87-B7E2F8220F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493B1406-4C60-4FC9-BF87-B7E2F8220F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493B1406-4C60-4FC9-BF87-B7E2F8220F62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
