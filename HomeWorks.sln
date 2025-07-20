@@ -137,6 +137,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 13_2_r", "Task 13_2_r\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 13_3_r", "Task_13_3_r\Task 13_3_r.csproj", "{3F9E79B8-C344-4541-A046-AD4EF82C849B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 1_1_ClickCounter", "WpfApp_Task 1_1\WpfApp_Task 1_1_ClickCounter.csproj", "{F4B4F1B3-3334-4099-930F-65600AA35E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 1_2_TrafficLight", "WpfApp_Task 1_2_TrafficLight\WpfApp_Task 1_2_TrafficLight.csproj", "{A8DD760B-178A-4706-8A7E-42E203DE1792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 1_3_RunawayButton", "WpfApp_Task 1_3_RunawayButton\WpfApp_Task 1_3_RunawayButton.csproj", "{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +417,18 @@ Global
 		{3F9E79B8-C344-4541-A046-AD4EF82C849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F9E79B8-C344-4541-A046-AD4EF82C849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F9E79B8-C344-4541-A046-AD4EF82C849B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B4F1B3-3334-4099-930F-65600AA35E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B4F1B3-3334-4099-930F-65600AA35E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B4F1B3-3334-4099-930F-65600AA35E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B4F1B3-3334-4099-930F-65600AA35E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DD760B-178A-4706-8A7E-42E203DE1792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DD760B-178A-4706-8A7E-42E203DE1792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DD760B-178A-4706-8A7E-42E203DE1792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DD760B-178A-4706-8A7E-42E203DE1792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B41DB94-1C65-4184-BD0F-3BCB8AE1A2E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
