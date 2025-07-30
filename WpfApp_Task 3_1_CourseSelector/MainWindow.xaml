@@ -1,0 +1,68 @@
+﻿<Window x:Class="WpfApp_Task_3_1_CourseSelector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_Task_3_1_CourseSelector"
+        mc:Ignorable="d"
+        Title="Выбор учебных курсов" Height="550" Width="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Имя студента -->
+        <Label Grid.Row="0" Content="ФИО студента:" Margin="0,0,0,5"/>
+        <TextBox Grid.Row="1" Name="StudentNameTextBox" Margin="0,0,0,10"/>
+
+        <!-- Факультет -->
+        <Label Grid.Row="2" Content="Факультет:" Margin="0,0,0,5"/>
+        <ComboBox Grid.Row="3" Name="FacultyComboBox" Margin="0,0,0,10">
+            <ComboBoxItem>Программирование</ComboBoxItem>
+            <ComboBoxItem>Дизайн</ComboBoxItem>
+            <ComboBoxItem>Менеджмент</ComboBoxItem>
+        </ComboBox>
+
+        <!-- Форма обучения -->
+        <Label Grid.Row="4" Content="Форма обучения:" Margin="0,0,0,5"/>
+        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,10">
+            <RadioButton Name="FullTimeRadio" Content="Очно" IsChecked="True" Margin="0,0,10,0"/>
+            <RadioButton Content="Заочно"/>
+        </StackPanel>
+
+        <!-- Количество часов -->
+        <Label Grid.Row="6" Content="Желаемое количество часов в неделю:" Margin="0,0,0,5"/>
+        <StackPanel Grid.Row="7" Orientation="Vertical" Margin="0,0,0,10">
+            <Slider Name="HoursSlider" Minimum="5" Maximum="40" Value="40" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="HoursSlider_ValueChanged"/>
+            <TextBlock Name="HoursTextBlock" Text="40 часов" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Доступные курсы -->
+        <Label Grid.Row="8" Content="Доступные курсы:" Margin="0,0,0,5"/>
+        <ListBox Grid.Row="9" Name="CoursesListBox" SelectionMode="Multiple" Margin="0,0,0,10" Height="100">
+            <ListBoxItem>Основы программирования</ListBoxItem>
+            <ListBoxItem>Базы данных</ListBoxItem>
+            <ListBoxItem>Веб-разработка</ListBoxItem>
+            <ListBoxItem>Графический дизайн</ListBoxItem>
+            <ListBoxItem>Маркетинг</ListBoxItem>
+        </ListBox>
+
+        <!-- Согласие на обработку данных -->
+        <CheckBox Grid.Row="11" Name="AgreementCheckBox" Content="Я согласен на обработку персональных данных" Margin="0,0,0,10"/>
+
+        <!-- Кнопка записи -->
+        <Button Grid.Row="12" Content="Записаться" Click="RegisterButton_Click" Height="30"/>
+    </Grid>
+</Window>
