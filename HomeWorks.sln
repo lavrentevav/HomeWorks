@@ -147,6 +147,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 2_1_TextEditor"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 3_1_CourseSelector", "WpfApp_Task 3_1_CourseSelector\WpfApp_Task 3_1_CourseSelector.csproj", "{7F4B4994-B7A7-480D-88AA-B88FDEE50385}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 4_1_ToggleButton", "WpfApp_Task 4_1_ToggleButton\WpfApp_Task 4_1_ToggleButton.csproj", "{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -441,6 +443,10 @@ Global
 		{7F4B4994-B7A7-480D-88AA-B88FDEE50385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F4B4994-B7A7-480D-88AA-B88FDEE50385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F4B4994-B7A7-480D-88AA-B88FDEE50385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
