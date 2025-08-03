@@ -1,0 +1,81 @@
+﻿<Window x:Class="WpfApp_Task_5_1_ResoursesStylesTriggers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_Task_5_1_ResoursesStylesTriggers"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Панель управления" Height="300" Width="300">
+
+    <Window.Resources>
+        <Style x:Key="InteractiveButtonStyle" TargetType="Button" 
+               BasedOn="{StaticResource BaseButtonStyle}">
+
+            <Style.Triggers>
+                <!--<MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsMouseOver" Value="True"/>
+                        <Condition Property="IsEnabled" Value="False"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background" Value="{StaticResource DisabledColor}"/>
+                </MultiTrigger>
+
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="{StaticResource DisabledColor}"/>
+                </Trigger>
+
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource HoverColor}"/>
+                </Trigger>
+                
+                Комментарий:
+                
+                У меня не получилось сделать так, чтобы эти триггеры сработали.
+                Если их удалить, всё работает так же, как при их наличии.
+                Как я понял, это потому, что стандартные свойства кнопки в WPF сами определяют
+                смену Background при наведении, и триггеры никак не могут их переопределить.
+                Мультитриггер с отключённой кнопкой (IsEnabled = False) так же не работает
+                по той причине, что отключенная кнопка вообще по умолчанию не взаимодействует
+                с курсором. То есть использование одновременно IsMouseOver = True и
+                IsEnabled = False бессмысленно.
+                
+                Поэтому демонстрация работы триггера и мультитриггера ниже реализована
+                через смену типа курсоров. HoverColor и DisabledColor не задействованы.
+                -->
+                
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Cursor" Value="Pen"/>
+                </Trigger>
+
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsMouseOver" Value="True"/>
+                        <Condition Property="Content" Value="Сохранить"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Cursor" Value="Hand"/>
+                </MultiTrigger>
+
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <StackPanel Margin="20">
+        <TextBlock Text="Настройки приложения" 
+                   Style="{StaticResource HeaderTextStyle}"/>
+
+        <Button Content="Сохранить" Style="{StaticResource InteractiveButtonStyle}"/>
+        <Button Content="Отменить" Style="{StaticResource InteractiveButtonStyle}"/>
+
+        <CheckBox x:Name="ToggleButton" 
+                  Content="Активировать специальную кнопку"
+                  Margin="5"/>
+
+        <Button Content="Специальная кнопка"
+                Style="{StaticResource InteractiveButtonStyle}"
+                IsEnabled="{Binding IsChecked, ElementName=ToggleButton}"
+                Width="Auto"
+                HorizontalAlignment="Center"
+                Padding="5"/>
+    </StackPanel>
+</Window>
