@@ -149,6 +149,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 3_1_CourseSelec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 4_1_ToggleButton", "WpfApp_Task 4_1_ToggleButton\WpfApp_Task 4_1_ToggleButton.csproj", "{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 5_1_ResoursesStylesTriggers", "WpfApp_Task 5_1_ResoursesStylesTriggers\WpfApp_Task 5_1_ResoursesStylesTriggers.csproj", "{3F6BAEE1-E4E9-4E2B-BE3E-4E6AB6117F73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +449,10 @@ Global
 		{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D308E2FD-4BA3-41A2-ABE6-E89A6058FD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6BAEE1-E4E9-4E2B-BE3E-4E6AB6117F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6BAEE1-E4E9-4E2B-BE3E-4E6AB6117F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6BAEE1-E4E9-4E2B-BE3E-4E6AB6117F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6BAEE1-E4E9-4E2B-BE3E-4E6AB6117F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
