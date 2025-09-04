@@ -153,6 +153,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 5_1_ResoursesSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 6_1_Bindings", "WpfApp_Task 6_1_Bindings\WpfApp_Task 6_1_Bindings.csproj", "{09586D58-5775-4431-AFE9-807A7EBDD8F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 7_1_CustomCheckBox", "WpfApp_Task 7_1_CustomCheckBox\WpfApp_Task 7_1_CustomCheckBox.csproj", "{079E35A7-8219-453B-AA5A-6F153B418A89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +461,10 @@ Global
 		{09586D58-5775-4431-AFE9-807A7EBDD8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09586D58-5775-4431-AFE9-807A7EBDD8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09586D58-5775-4431-AFE9-807A7EBDD8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079E35A7-8219-453B-AA5A-6F153B418A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079E35A7-8219-453B-AA5A-6F153B418A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079E35A7-8219-453B-AA5A-6F153B418A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079E35A7-8219-453B-AA5A-6F153B418A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
