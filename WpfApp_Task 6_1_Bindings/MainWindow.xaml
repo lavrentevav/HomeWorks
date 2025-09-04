@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp_Task_6_1_Bindings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_Task_6_1_Bindings"
+        mc:Ignorable="d"
+        Title="Счетчик длины текста" Height="200" Width="400">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </Window.Resources>
+
+    <StackPanel Margin="10">
+        <TextBox x:Name="InputTextBox" Margin="0,0,0,10" TextWrapping="Wrap" MaxLength="100"/>
+
+        <CheckBox x:Name="DetailsCheckBox" Content="Показать детали" Margin="0,0,0,10"/>
+
+        <StackPanel Visibility="{Binding ElementName=DetailsCheckBox, Path=IsChecked, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <TextBlock Text="{Binding ElementName=InputTextBox, Path=Text.Length, StringFormat='Длина текста: {0}'}"/>
+
+            <ProgressBar Maximum="100" 
+                         Value="{Binding ElementName=InputTextBox, Path=Text.Length, Mode=OneWay}"
+                         Height="20" Margin="0,5,0,0"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
