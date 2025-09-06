@@ -69,15 +69,18 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <!-- Unchecked -->
             <CheckBox Style="{StaticResource ThreeStateCheckBoxStyle}" 
-                      IsChecked="False"/>
+                      IsChecked="False"
+                      IsThreeState="True"/>
 
             <!-- Checked -->
             <CheckBox Style="{StaticResource ThreeStateCheckBoxStyle}" 
-                      IsChecked="True"/>
+                      IsChecked="True"
+                      IsThreeState="True"/>
 
             <!-- Indeterminate -->
             <CheckBox Style="{StaticResource ThreeStateCheckBoxStyle}" 
-                      IsChecked="{x:Null}"/>
+                      IsChecked="{x:Null}"
+                      IsThreeState="True"/>
         </StackPanel>
     </StackPanel>
 </Window>
