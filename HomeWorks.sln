@@ -157,6 +157,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 7_1_CustomCheck
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 8_1_CustomListBox", "WpfApp_Task 8_1_CustomListBox\WpfApp_Task 8_1_CustomListBox.csproj", "{A1FC5CA1-5262-4D71-9B00-321674B428C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 9_1_ChangeBackground", "WpfApp_Task 9_1_ChangeBackground\WpfApp_Task 9_1_ChangeBackground.csproj", "{B737CA49-0E2F-447A-8FEA-47873A0B9997}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -471,6 +473,10 @@ Global
 		{A1FC5CA1-5262-4D71-9B00-321674B428C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1FC5CA1-5262-4D71-9B00-321674B428C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1FC5CA1-5262-4D71-9B00-321674B428C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B737CA49-0E2F-447A-8FEA-47873A0B9997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B737CA49-0E2F-447A-8FEA-47873A0B9997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B737CA49-0E2F-447A-8FEA-47873A0B9997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B737CA49-0E2F-447A-8FEA-47873A0B9997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
