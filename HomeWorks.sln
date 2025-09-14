@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 9_1_ChangeBackg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 10_1_Authentication", "WpfApp_Task 10_1_Authentication\WpfApp_Task 10_1_Authentication.csproj", "{5F227FF4-CC48-4E87-BCF9-B8DB8AE2FF02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 11_1_CircleProgressBar", "WpfApp_Task 11_1_CircleProgressBar\WpfApp_Task 11_1_CircleProgressBar.csproj", "{BBE81C11-FD51-48C7-8C94-181C130E21BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{5F227FF4-CC48-4E87-BCF9-B8DB8AE2FF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F227FF4-CC48-4E87-BCF9-B8DB8AE2FF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F227FF4-CC48-4E87-BCF9-B8DB8AE2FF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE81C11-FD51-48C7-8C94-181C130E21BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE81C11-FD51-48C7-8C94-181C130E21BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE81C11-FD51-48C7-8C94-181C130E21BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE81C11-FD51-48C7-8C94-181C130E21BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
