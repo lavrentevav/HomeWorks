@@ -163,6 +163,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 10_1_Authentica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_Task 11_1_CircleProgressBar", "WpfApp_Task 11_1_CircleProgressBar\WpfApp_Task 11_1_CircleProgressBar.csproj", "{BBE81C11-FD51-48C7-8C94-181C130E21BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPI_Task 1_1_Analysis", "RevitAPI_Task 1_1_Analysis\RevitAPI_Task 1_1_Analysis.csproj", "{B540E31C-9CE7-4092-9D09-6C51F8423632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPI_Task 1_2_Refactoring", "RevitAPI_Task 1_2_Refactoring\RevitAPI_Task 1_2_Refactoring.csproj", "{951DE175-7A33-4135-9B29-83BE5C0B3357}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -489,6 +493,14 @@ Global
 		{BBE81C11-FD51-48C7-8C94-181C130E21BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE81C11-FD51-48C7-8C94-181C130E21BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE81C11-FD51-48C7-8C94-181C130E21BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B540E31C-9CE7-4092-9D09-6C51F8423632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B540E31C-9CE7-4092-9D09-6C51F8423632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B540E31C-9CE7-4092-9D09-6C51F8423632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B540E31C-9CE7-4092-9D09-6C51F8423632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951DE175-7A33-4135-9B29-83BE5C0B3357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951DE175-7A33-4135-9B29-83BE5C0B3357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951DE175-7A33-4135-9B29-83BE5C0B3357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951DE175-7A33-4135-9B29-83BE5C0B3357}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
