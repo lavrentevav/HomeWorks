@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPI_Task 1_2_Refactori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPI_Task 2_1_SOLID", "RevitAPI_Task 2_1\RevitAPI_Task 2_1_SOLID.csproj", "{E0FFBB86-4A77-475B-A299-DB04F6D464B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPI_Task 3_1_Intro", "RevitAPI_Task 3_1_Intro\RevitAPI_Task 3_1_Intro.csproj", "{F7F193A2-0D50-46EF-A312-FA148A03EB67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -507,6 +509,10 @@ Global
 		{E0FFBB86-4A77-475B-A299-DB04F6D464B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0FFBB86-4A77-475B-A299-DB04F6D464B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0FFBB86-4A77-475B-A299-DB04F6D464B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F193A2-0D50-46EF-A312-FA148A03EB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F193A2-0D50-46EF-A312-FA148A03EB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F193A2-0D50-46EF-A312-FA148A03EB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F193A2-0D50-46EF-A312-FA148A03EB67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
