@@ -183,6 +183,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPI_Task 8_1_InspectWa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPI_Task 9_1_CreateSections", "RevitAPI_Task 9_1_CreateSections\RevitAPI_Task 9_1_CreateSections.csproj", "{B3E1C5E0-25F2-4889-AD41-930A35AD561A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPI_Task 10_1_TreePlacement", "RevitAPI_Task 10_1_TreePlacement\RevitAPI_Task 10_1_TreePlacement.csproj", "{7207560F-92B7-42BF-8E79-201181F1E5FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -549,6 +551,10 @@ Global
 		{B3E1C5E0-25F2-4889-AD41-930A35AD561A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E1C5E0-25F2-4889-AD41-930A35AD561A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E1C5E0-25F2-4889-AD41-930A35AD561A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7207560F-92B7-42BF-8E79-201181F1E5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7207560F-92B7-42BF-8E79-201181F1E5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7207560F-92B7-42BF-8E79-201181F1E5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7207560F-92B7-42BF-8E79-201181F1E5FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
