@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>TreePlacement</Name>
+    <Assembly>C:\Users\user\source\repos\HomeWorks18\RevitAPI_Task 10_1_TreePlacement\bin\Debug\net472\RevitAPI_Task 10_1_TreePlacement.dll</Assembly>
+    <AddInId>1FD4D91D-7A8B-4E7A-9E8A-DFEA9C3D0C11</AddInId>
+    <FullClassName>RevitAPI_Task_10_1_TreePlacement.Cmd</FullClassName>
+    <VendorId>HW18</VendorId>
+    <VendorDescription>HomeWorks18</VendorDescription>
+  </AddIn>
+</RevitAddIns>
